@@ -5,3 +5,4 @@ RABBITMQ_HOST: rabbitmq.theawsdevops.space
 CATALOGUE_HOST: catalogue.theawsdevops.space
 USER_HOST: user.theawsdevops.space
 CART_HOST: cart.theawsdevops.space
+SHIPPING_HOST: shipping.theawsdevops.space
