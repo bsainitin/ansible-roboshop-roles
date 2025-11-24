@@ -12,9 +12,9 @@
   ansible.builtin.pip:
     executable: pip3.9
     name: "{{ item }}"
-    loop:
-      - cryptography
-      - PyMySQL
+  loop:
+    - cryptography
+    - PyMySQL
 
 - name: import {{ component }} data into mysql
   community.mysql.mysql_db:
